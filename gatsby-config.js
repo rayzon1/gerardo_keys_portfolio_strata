@@ -1,16 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Strata by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Strata by HTML5 UP"
+    title: "Gerardo A. Keys Portfolio",
+    author: "Gerardo Keys",
+    description: "My personal portfolio as a front-end developer."
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'gerardo-keys-portfolio',
+        short_name: 'portfolio',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
