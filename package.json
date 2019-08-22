@@ -4,6 +4,8 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
+    "@material-ui/core": "^4.3.3",
+    "@material-ui/icons": "^4.2.1",
     "gatsby": "^2.2.9",
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-offline": "^2.0.25",
@@ -13,7 +15,8 @@
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-helmet": "^5.2.0",
-    "react-images": "^1.0.0"
+    "react-images": "^1.0.0",
+    "react-reveal": "^1.2.2"
   },
   "keywords": [
     "gatsby"

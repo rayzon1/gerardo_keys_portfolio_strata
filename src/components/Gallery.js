@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import Carousel, { Modal, ModalGateway } from "react-images";
+import Fade from 'react-reveal/Fade';
 
 class Gallery extends Component {
     constructor () {
@@ -25,16 +26,18 @@ class Gallery extends Component {
         const gallery = images.map((obj, i) => {
             return (
                 <article className="6u 12u$(xsmall) work-item" key={i}>
-                    <a
-                        className="image fit thumb"
-                        href={obj.source}
-                        onClick={e => {
-                            e.preventDefault();
-                            this.toggleLightbox(i);
-                        }}
-                    >
-                        <img src={obj.thumbnail} />
-                    </a>
+                    <Fade>
+                        <a
+                            className="image fit thumb"
+                            href={obj.source}
+                            onClick={e => {
+                                e.preventDefault();
+                                this.toggleLightbox(i);
+                            }}
+                        >
+                            <img src={obj.thumbnail} />
+                        </a>
+                    </Fade>
 
                     <h3>{obj.caption}</h3>
                     <p>{obj.description}</p>

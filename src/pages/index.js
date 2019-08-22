@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import Code from '@material-ui/icons/Code';
 
 import Layout from '../components/layout'
 // import Lightbox from 'react-images'
@@ -45,12 +46,12 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Hello and welcome.<br />
-                            My name is Gerardo Keys and I am a full-stack JavaScript developer.</h2>
+                            <h2>Hello and welcome. 👋 <br />
+                            My name is Gerardo Keys and I am a full-stack JavaScript developer. </h2>
                         </header>
                         <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
                         <ul className="actions">
-                            <li><a href="#" className="button">Learn More</a></li>
+                            <li><a href="https://docs.google.com/document/d/1UBlGvBmSualbOp6Rl3GlLPPDGwneWhl7l4k_01b13WY/edit?usp=sharing" target="blank" className="button">Download Resume</a></li>
                         </ul>
                     </section>
 
